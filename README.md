@@ -1,35 +1,41 @@
-# 👨‍💻 Prova Formativa de PWBE 👨‍💻
+# Avaliação somativa PWBE
 
 ## Objetivo:
 O objetivo é praticar o desenvolvimento de operações CRUD, além de implementar funcionalidades adicionais conforme requisitos específicos.
 
 ## Utilidades:
-API - Criação de API (Plataforma de Interface de Aplicação)
-CRUD - Funcionalidades de Cadastro, consulta, alteração e exclusão
-MVC - Padrão de projeto (Modelo, Visão e Controle)
-Testes - Testes unitários da API utilizando software Insomnia
+- API - Criação de API (Plataforma de Interface de Aplicação)
+
+- CRUD - Funcionalidades de criar, ler, atualizar e excluir
+
+- MVC - Padrão de projeto (Modelo, Visão e Controle)
+
+- Testes - Testes unitários da API utilizando software Insomnia
+
+|Tecnologias|Descrição|
+|-|-|
+|<img src="https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png" style="width:50px;">[XAMPP - MySQL MariaDB](https://www.apachefriends.org/pt_br/index.html)|Banco de dados relacional|
+|<img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" style="width:50px;">[NodeJS](https://nodejs.org/en)|Framework para construção de APIs|
+|<img src="https://logowik.com/content/uploads/images/visual-studio-code7642.jpg" style="width:50px;">[VsCode](https://code.visualstudio.com/)|IDE|
+|<img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" style="width:50px;"> [Insomnia](https://insomnia.rest/)|Ferramenta para testes unitários|
 
 ## Funcionalidades a serem desenvolvidas:
-- CRUD de Funcionários
+- CRUD de Clientes
+- CRUD de Veiculos
 - CRUD de Telefones
-- CRUD de Veículos
-- CRUD de Manutenções
+- CRUD de Alugueis
 
 ### Como testar:
 
 1. Clone este repositório.
-2. Execute o script de criação e população do banco de dados para garantir que os dados de teste estejam presentes.
-3. Implemente as funcionalidades conforme descrito acima.
-4. Utilize ferramentas de teste de API ou frameworks de testes automatizados para verificar o funcionamento das operações CRUD.
-5. Certifique-se de que todas as operações CRUD estão funcionando conforme o esperado, e que as funcionalidades adicionais foram implementadas corretamente.
 
-Navegue até a pasta API
+2. Navegue até a pasta API
 
 ```
 cd api
 ```
 
-Instale as dependencias
+3. Instale as dependencias.
 
 ```
 npm init
@@ -39,16 +45,19 @@ npm i
 npm install express cors mysql nodemon
 ```
 
-Execute o banco de dados 
+4. Execute o banco de dados.
 
 ```
 mysql -u root
 ```
 
-Ainda na pasta Api
+Cole o script.sql que está na pasta /bcd
+
+5. Ainda na pasta API rode o nodemon.
 
 ```
 npx nodemon
+
 ```
 
 
